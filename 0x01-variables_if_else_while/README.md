@@ -1,2 +1,2 @@
 #!/bin/bash
- C variable and conditional statements
+ C variables and conditional statements readme
