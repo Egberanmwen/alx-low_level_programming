@@ -1,14 +1,14 @@
 #include <stdio.h>
 /*
  *  main-Entry point
- *  betty style doc for function main is inserted here
+ *  betty style doc for function main goes there
  * return : Always 0 (Success)
  */
 int main(void)
 {
 	char c;
 	char d;
-/* Insert your code here */
+/* Your code goes there */
 c = 'a';
 d = 'A';
 while (c <= 'z')
