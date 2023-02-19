@@ -9,7 +9,7 @@ int main(void)
 	int a;
 
 /* Your code goes there*/
-for (a = 0; a < 10; a++)
+for (a = 0; a <= 10; a++)
 printf("%d", a);
 return (0);
 }
