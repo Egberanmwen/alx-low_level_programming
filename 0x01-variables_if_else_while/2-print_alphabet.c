@@ -18,4 +18,3 @@ while (c <= 'z')
 putchar('\n');
 return (0);
 }
-
