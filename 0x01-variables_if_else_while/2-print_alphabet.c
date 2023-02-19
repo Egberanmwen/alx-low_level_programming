@@ -4,18 +4,18 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ * betty style doc for the function main is inserted here
  */
 int main(void)
 {
 	char c;
-n = rand() - RAND MAX / 2;
+
 /*Your code goes here*/
 c  = 'a';
 while (c <= 'z')
-{ 
-putchar(c); c++
+{putchar(c), c++;
 }
-putchar("\n")
+putchar('\n');
 return (0);
 }
 
