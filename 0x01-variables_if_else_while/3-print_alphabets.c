@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  *  main-Entry point
- *  betty style docfunction main is inserted here
+ *  betty style doc for function main is inserted here
  * return : Always 0 (Success)
  */
 int main(void)
