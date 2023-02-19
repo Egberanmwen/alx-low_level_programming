@@ -1,18 +1,19 @@
 #include <stdio.h>
-/*
- * main -Entry point
- * betty doc style for function main goes there
- * return: Always 0 (Success)
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ * betty style doc for the function main is inserted here
  */
 int main(void)
 {
 	char c;
-/*Your code goes there*/
 
-c = 'a';
+/*Your code goes here*/
+c  = 'a';
 while (c <= 'z')
-if ((c != 'e' && c != 'q') && c != 'z')
-{putchar (c), c++;
+{putchar(c), c++;
 }
 putchar('\n');
 return (0);
