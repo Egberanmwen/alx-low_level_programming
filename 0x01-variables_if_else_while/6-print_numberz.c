@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char c;
-	int b
+
+	int b;
+
 /*Your code is inserted here*/
-c = b;
 while (b <= 10)
 {putchar (b + 0), b++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
