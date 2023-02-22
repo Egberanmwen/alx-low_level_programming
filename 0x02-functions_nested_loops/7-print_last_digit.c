@@ -5,14 +5,14 @@
  * Return: value of the last digit.
  *betty style for function main is inserted here.
  */
-int print_last_digit(int n)
+int print_last_digit(int nld)
 {
-	int m;
-m = (n % 10);
-if (m < 0)
+	int pld;
+pld = (nld % 10);
+if (pld < 0)
 {
-m = (-1 * m);
-_putchar (m + '0');
-return (m);
+pld = (-1 * pld;
+_putchar (pld + '0');
+return (pld);
 }
 }
