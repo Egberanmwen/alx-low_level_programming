@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_last_digit - a function that prints the last digit of a number.
- * @nld: number's lastdigit result.
- * Return: value of the last digit.
+ *print_last_digit - Prints the last digit of a number.
+ *@nld: number's lastdigit result.
+ *Return: value of the last digit.
  *betty style for function main is inserted here.
  */
 int print_last_digit(int nld)
