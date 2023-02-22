@@ -10,5 +10,5 @@ void print_alphabet(void)
 /*Your code is inserted here*/
 for (j = 'a'; j <= 'z'; j++)
 _putchar (j);
-_putchar ('\n');
+_putchar ('\n');2-print_alphabet_x10.c
 }
