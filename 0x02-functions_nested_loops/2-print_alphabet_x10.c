@@ -7,7 +7,6 @@
  */
 void print_alphabet_x10(void)
 {
-return (0);
 	int count = 0;
 	int j;
 /*Your code is insertde here*/
