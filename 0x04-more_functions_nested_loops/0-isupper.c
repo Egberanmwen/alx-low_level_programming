@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.c"
 /**
 *_isupper - a function that checks for uppercase character.
