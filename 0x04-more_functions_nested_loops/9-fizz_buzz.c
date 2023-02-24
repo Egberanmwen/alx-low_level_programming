@@ -13,18 +13,18 @@ int main(void)
 	char f[] = "Fizzz";
 	char b[] = "Buzz";
 	char fb[] = "FizzBuzz";
-for (i = 1; 1 <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i == 100)
-printf("%s", b);
-else if ((i % 3 == 0) && (i % 5 == 0)
-printf("%s", fb);
-else if (1 % 3 == 0)
-printf("s", f);
+printf("%s ", b);
+else if ((i % 3 == 0) && (i % 5 == 0))
+printf("%s ", fb);
+else if (i % 3 == 0)
+printf("%s ", f);
 else if (i % 5 == 0)
-printf("s", b);
+printf("%s ", b);
 else
-printf("%d", i);
+printf("%d ", i);
 }
 printf("\n");
 return (0);
