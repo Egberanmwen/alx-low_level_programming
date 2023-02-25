@@ -7,5 +7,5 @@
 void print_number(int n)
 {
 
-return(0);
+return (0);
 }
