@@ -13,13 +13,16 @@ for (j = 49; j <= 58; j++)
 {
 for (k = 50; k <= 58; k++)
 {
-putchar (i);
-putchar (j);
+if (i > j && j > k)
+{
 putchar (k);
-if (i != 55 || j != 56)
+putchar (j);
+putchar (i);
+if (k != 55 || j != 56)
 {
 putchar (',');
 putchar (' ');
+}
 }
 }
 }
