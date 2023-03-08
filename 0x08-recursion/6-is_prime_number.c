@@ -17,7 +17,7 @@ return (0);
 }
 
 /**
- * check_prime -checks if number is prime
+ *prime_checker -checks if number is prime
  * @n: the number to be checked
  * @i: the iteration times
  * Return: 1 for prime or 0 composite
