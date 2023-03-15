@@ -1,13 +1,10 @@
-#include "main.h"
 #include <stdio.h>
-
 /**
- * main - prints its name + \n
- * @argc: number of arguments typed
- * @argv: array pointing to arguements
- * Return: 0
+ * main - is a function that prints the name of the file
+ * @argc: is an argument counter for char
+ * @argv: is an argument value for char
+ * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
 {
 printf("%s\n", argv[argc - argc]);
