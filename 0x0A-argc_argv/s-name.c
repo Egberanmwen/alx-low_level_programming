@@ -7,9 +7,9 @@
  * @argv: array pointing to arguements
  * Return: 0
  */
-
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-printf("%s\n", argv[argc - argc]);
-return (0);
+        /*char *name = argv[0];*/
+printf("%s\n", *argv);
+return 0;
 }
