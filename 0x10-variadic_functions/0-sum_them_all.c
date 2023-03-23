@@ -8,12 +8,12 @@ int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
 	int sum = 0;
-	va_list arg;
+	va_list valist;
 if (n == 0)
 return (0);
-va_start(arg, n);
+va_start(valist, n);
 for (i = 0; i < n; i++)
-sum += va_arg(arg, int);
-va_end(arg);
+sum += va_arg(valist, int);
+va_end(valist);
 return (sum);
 }
